@@ -1,0 +1,112 @@
+% cv example for classicthesis.sty
+\documentclass[10pt,a4paper]{scrartcl}
+\usepackage[LabelsAligned]{currvita} % nice cv style
+\usepackage{url}
+\usepackage[ngerman]{babel}
+\usepackage[nochapters]{classicthesis}
+% Some font experiments
+%\usepackage[osf]{libertine}
+%\usepackage{hfoldsty}
+%\usepackage[math]{iwona} %[light,condensed,math]
+%\renewcommand{\sfdefault}{iwona}
+%\usepackage{lmodern} % <-- no osf support :-(
+%\usepackage[urw-garamond]{mathdesign} %<-- no osf support :-(
+
+\SweaveOpts{engine=R, eps=FALSE, keep.source = TRUE}
+
+\renewcommand*{\cvheadingfont}{\LARGE\color{Maroon}}
+\renewcommand*{\cvlistheadingfont}{\large}
+\renewcommand*{\cvlabelfont}{\qquad}
+
+% daniehei
+\usepackage{lipsum}
+\usepackage[a4paper, top=3cm, bottom=4cm]{geometry}
+% \usepackage{mathpazo} % for palantino font (but already loaded with classicthesis...
+\usepackage{enumitem}
+\usepackage{heimisc}
+\usepackage{hyperref}
+
+\setlist[itemize]{label=-}
+\reversemarginpar
+
+% \AtBeginDocument{%
+% \setlength{\cvlabelwidth}{15mm}
+% }%
+
+\begin{document}
+\thispagestyle{empty}
+    \begin{cv}{\spacedallcaps{Curriculum Vit\ae}}
+        %\pdfbookmark[1]{Pers\"onliche Daten}{PersDat}
+        \begin{cvlist}{\spacedlowsmallcaps{Pers\"onliche Daten}}\label{PersDat}
+            \item   Daniel Heimgartner \\
+                    Rütschistrasse 17, 8037 Zürich
+            \item   Tel.:~077 508 33 72 \\
+                    E"~Mail:~\href{mailto:d.heimgartners@gmail.com}{d.heimgartners@gmail.com}
+            \item   Geboren am 22. August 1992 \\
+                    Schweiz
+            \item   \url{https://github.com/dheimgartner} \\
+        \end{cvlist}
+
+        %\pdfbookmark[1]{Irgendwas}{irgendwas}
+        \begin{cvlist}{\spacedlowsmallcaps{Über mich}}\label{irgendwas}
+            \item  Ausgeprägte Lernbegeisterung und -fähigkeit; Fundierte Programmierkenntnisse und Verständnis für Softwarearchitektur, -konzepte; Quantitatives Modellieren (mathematische/statistische Kenntnisse, um neue Modelle schnell zu verstehen und anzuwenden); Ökonomische Perspektive; Interesse für Finanzsysteme; Sichere wissenschaftliche und professionelle Ausdrucksweise in Wort und Schrift; Präsentationskompetenz; Gewisser Sinn für (Prozess-) Ästhetik; Integre und selbstmotivierte Person
+        \end{cvlist}
+
+        \begin{cvlist}{\spacedlowsmallcaps{Ausbildung}}\label{education}
+            \item \textbf{Doktorat}, Institut für Verkehrsplanung und Transportsysteme, IVT, ETH Zürich
+            \marginpar{2021--heute}
+            \begin{itemize}
+                \item \emph{The Impact of Telework on Transport Demand --- Data, Tools and Analysis}: Datenerhebung, Stated-Preference Umfragen, Wahlmodellierung, Kausale Inferenz, (Mit-) Entwicklung verschiedener \proglang{R}-Pakete (\pkg{OPSR}, \pkg{OPSRtools}, \pkg{mixl}, ...), \url{https://CRAN.R-project.org/package=OPSR}
+                \item Projetkleiter \emph{Multimodality in the Swiss New Normal}: Projektpartner: SBB, AMAG, Tiefbauamt Zürich, Kanton Zürich; Organisation und Leitung der Begleitgruppensitzungen sowie der Forschungsgruppe
+                \item Datenverantwortlicher: Pflege der Forschungsdatensätze und verschiedener Datenbanken, Ansprechsperson für Datenzugang, Austausch mit diversen internen und externen Stakeholders
+                \item Kernkurse des Statistik Masters \emph{Measurement and Modeling \& Computational Statistics} erfolgreich absolviert
+                \item Diverse Publikationen und Konferenzbeiträge: \emph{TRB (2023\&24), STRC (2023\&24), hEART (2024), useR (2024)}
+                \item Lehrbeauftragter Bachelor-Seminar \emph{Projektübung Verkehr}: Studierende tracken sich mittels GPS-App, analysieren ihr eigenes Mobilitätsverhalten und schätzen Zeitwerte
+            \end{itemize}
+            \item \textbf{MSc. in Ökonomie}, Doppelmaster, Stockholm School of Economics \& Universität St. Gallen
+            \marginpar{2018--2020}
+            \begin{itemize}
+                \item Vertiefung makroökonomisches Modellieren und Datenanalysen
+            \end{itemize}
+            \item \textbf{BSc. Sport, Bewegung und Gesundheit}, Universität Basel
+            \marginpar{2015--2018}
+            \begin{itemize}
+                \item Zweitfach Business \& Economics
+            \end{itemize}
+            \item \textbf{Militärdienst als Gebirgspezialist}, Kompetenzzentrum Gebirgsdienst der Armee, Adermatt
+            \marginpar{2012--2013}
+            \begin{itemize}
+                \item Winter-RS (Ausbildung in Bergsport Sommer \& Winter); Alle Wiederholungskurse absolviert; Diverse Ski-, Alpin- und Klettertouren; Durchführung und Leitung von (internationalen) Aus- und Weiterbildungen
+            \end{itemize}
+            \item \textbf{Kantonsschule Wohlen}, Gymnasium
+            \marginpar{2008--2012}
+            \begin{itemize}
+                \item Schwerpunktfach Mathematik \& Physik
+            \end{itemize}
+        \end{cvlist}
+
+        \begin{cvlist}{\spacedlowsmallcaps{Berufserfahrung}}\label{work}
+            \item \textbf{Praktikant SNB}, Abteilung für Finanzstabilität, Schweizerische Nationalbank
+            \marginpar{2020--2021}
+            \begin{itemize}
+                \item Hypothekar- und COVID-Kreditmonitoring
+                \item Datenaufbereitung und Mithilfe bei ökonomischen Analysen
+            \end{itemize}
+            \item \textbf{Anstellung bei Nepa} im Rahmen der Masterarbeit, Stockholm
+            \marginpar{2020}
+            \begin{itemize}
+                \item Integriert im Team Data Science
+                \item Marketing-Mix-Modeling: Vergleich verschiedener Modelle, um den Zusammenhang zwischen Werbeausgaben und Umsatz zu messen
+            \end{itemize}
+            \item \textbf{Wissenschaftlicher Mitarbeiter}, Schweizerisches Institut für Empirische Wirtschaftsforschung, Universität St. Gallen
+            \marginpar{2019}
+            \item \textbf{Diverse Studentenjobs:} Tankstellenshop BP Wohlen (jeden Dienstag Abend und an Wochenenden während dem Gymnasium); Bergartikelverkäufer Bächli Bergsport, ...
+        \end{cvlist}
+
+        \begin{cvlist}{\spacedlowsmallcaps{Fähigkeiten}}\label{skill}
+            \item \textbf{Software:} Hervorragende \proglang{R} Kenntnisse, Python, \LaTeX, git, bash, etwas C (primär durch Lektüre der Bibel \emph{The C Programming Language}) und JavaScript
+            \item \textbf{Sprachen:} Deutsch (Muttersprache), Englisch (C1), Schwedisch (B2), Französisch (B1)
+        \end{cvlist}
+
+    \end{cv}
+\end{document}

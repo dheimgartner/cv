@@ -1,0 +1,40 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{heimisc}[2025/03/29 Some useful stuff]
+
+% Load necessary packages
+\RequirePackage{url}
+\RequirePackage{hyperref}
+
+% ------------------------------
+% Code formatting
+% ------------------------------
+\newcommand\code{\bgroup\@makeother\_\@makeother\~\@makeother\$\@codex}
+\def\@codex#1{{\normalfont\ttfamily\hyphenchar\font=-1 #1}\egroup}
+
+% ------------------------------
+% Semantic macros
+% ------------------------------
+\newcommand{\proglang}[1]{\textsf{#1}}
+\newcommand{\pkg}[1]{\textbf{#1}}
+\newcommand{\class}[1]{`\code{#1}'}
+\newcommand{\fct}[1]{\code{#1()}}
+
+% ------------------------------
+% DOI macro (inspired by jss.cls)
+% ------------------------------
+\ifx\csname urlstyle\endcsname\relax
+  \newcommand\@doi[1]{doi:\discretionary{}{}{}#1}
+\else
+  \newcommand\@doi{doi:\discretionary{}{}{}\begingroup\urlstyle{tt}\Url}
+\fi
+\newcommand{\doi}[1]{\href{https://doi.org/#1}{\normalfont\texttt{\@doi{#1}}}}
+
+% ------------------------------
+% Math commands
+% ------------------------------
+\newcommand{\E}{\mathsf{E}}
+\newcommand{\VAR}{\mathsf{VAR}}
+\newcommand{\COV}{\mathsf{COV}}
+\newcommand{\Prob}{\mathsf{P}}
+
+\endinput
