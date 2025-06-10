@@ -1,0 +1,84 @@
+\documentclass{article}
+
+\SweaveOpts{engine=R, eps=FALSE, keep.source = TRUE}
+
+\pagenumbering{gobble}
+\setlength\parindent{0pt}
+
+\usepackage[skip=8pt plus1pt, indent=0pt]{parskip}
+
+\usepackage{lipsum}
+\usepackage[nochapters]{classicthesis}
+\usepackage[a4paper, top=3cm, bottom=4cm]{geometry}
+\usepackage{hyperref}
+\usepackage[ngerman]{babel}
+\usepackage{heimisc}
+
+\definecolor{link}{rgb}{0.38,0.45,0.6}
+\hypersetup{
+  colorlinks,%
+  citecolor=link,%
+  filecolor=link,%
+  linkcolor=link,%
+  urlcolor=link
+}
+
+\newcommand{\rightAligned}[2]{
+\hfill
+\begin{minipage}{#1\textwidth}
+#2
+\end{minipage}
+}
+
+\begin{document}
+
+\rightAligned{0.3}{
+\textbf{Daniel Heimgartner} \\
+Rütschistrasse 17 \\
+8037 Zürich \\
+Tel.: 077 508 33 72 \\
+\href{mailto:d.heimgartners@gmail.com}{d.heimgartners@gmail.com}
+}
+
+\rightAligned{0.3}{
+\today
+}
+
+\vspace{1em}
+
+\textbf{Schweizerische Nationalbank} \\
+Human Resources \\
+Katrin Kuster
+
+\vspace{1em}
+
+\textbf{Bewerbung als Economist/Business Analyst (80\% - 100\%)}
+
+\vspace{1em}
+
+Sehr geehrte Frau Kuster,
+
+Mit grossem Interesse bewerbe ich mich für die Position als Economist/Business Analyst im Team Kreditdaten der SNB. Dank meiner Ausbildung in Wirtschaftswissenschaften, meiner Erfahrung in der Datenerhebung und quantitativen Analyse, sowie meiner IT-Affinität, bringe ich die nötigen Voraussetzungen mit, um die Einzelkrediterhebung (EKE) aktiv mitzugestalten.
+
+Während meines Doktorats an der ETH Zürich habe ich mich intensiv mit Datenerhebung und -analyse beschäftigt. Nebenbei war ich am Institut für die Pflege der Forschungsdaten verantwortlich (darunter auch grosse und sensible Datensätze, wie beispielsweise 2 Jahre an GPS-Trajektorien). Dadurch kenne ich sowohl die Perspektive der Datenproduzenten als auch die der -nutzer.
+
+Mein Interesse am Schweizer Finanzmarkt hat sich unter anderem durch mein Praktikum in der Abteilung für Finanzstabilität der SNB vertieft, wo ich einen Beitrag zum Hypothekar- und COVID-Kreditmonitoring leisten durfte. Kredite ermöglichen die Geldmengenausweitung und folglich Investitionen, wo sie der Gesamtwirtschaft am meisten Nutzen bringen. Kredite sind aber auch immer mit Risiko behaftet und somit is es wichtig, dass die Banken genügend Kapitalreserven haben, um Ausfälle zu tragen. Die EKE trägt unmittelbar dazu bei, einen effizienten und robusten Finanzplatz zu gewährleisten, was ich als sehr sinnstiftend erachte.
+
+Ich bin motiviert, meine Kenntnisse und Erfahrungen in die SNB einzubringen, mich stetig weiter zu entwicklen und mich für die Kreditdatenerhebung und somit die Stabilität des Finanzplatzes zu engagieren. Sehr gerne würde ich Sie in einem persönlichen Gespräch von meinen Qualifikationen und meiner Motivation überzeugen.
+
+Ich freue mich auf Ihre Rückmeldung und stehe Ihnen für weitere Informationen jederzeit zur Verfügung.
+
+Freundliche Grüsse
+
+\vspace{3em}
+
+Daniel Heimgartner
+
+\vfill
+\begin{itemize}
+    \item[-] Lebenslauf
+    \item[-] Arbeitszeugnis SNB
+    \item[-] Masterzeugnis
+\end{itemize}
+
+\end{document}
