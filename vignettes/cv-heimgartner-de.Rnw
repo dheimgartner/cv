@@ -14,7 +14,7 @@
 
 \SweaveOpts{engine=R, eps=FALSE, keep.source = TRUE}
 
-\renewcommand*{\cvheadingfont}{\LARGE\color{Maroon}}
+\renewcommand*{\cvheadingfont}{\LARGE\color{RoyalBlue}}
 \renewcommand*{\cvlistheadingfont}{\large}
 \renewcommand*{\cvlabelfont}{\qquad}
 
@@ -28,6 +28,16 @@
 
 \setlist[itemize]{label=-}
 \reversemarginpar
+
+% \definecolor{link}{rgb}{0.45,0.51,0.67}
+\definecolor{link}{rgb}{0.38,0.45,0.6}
+\hypersetup{
+  colorlinks,%
+  citecolor=link,%
+  filecolor=link,%
+  linkcolor=link,%
+  urlcolor=link
+}
 
 % \AtBeginDocument{%
 % \setlength{\cvlabelwidth}{15mm}
