@@ -2,14 +2,14 @@
 
 \SweaveOpts{engine=R, eps=FALSE, keep.source = TRUE}
 
-\pagenumbering{gobble}
+% \pagenumbering{gobble}
 \setlength\parindent{0pt}
 
 \usepackage[skip=8pt plus1pt, indent=0pt]{parskip}
 
 \usepackage{lipsum}
 \usepackage[nochapters]{classicthesis}
-\usepackage[a4paper, top=3cm, bottom=4cm]{geometry}
+\usepackage[a4paper, top=2.5cm, bottom=3cm]{geometry}
 \usepackage{hyperref}
 \usepackage[ngerman]{babel}
 \usepackage{heimisc}
@@ -31,6 +31,7 @@
 }
 
 \begin{document}
+\thispagestyle{empty}
 
 \rightAligned{0.3}{
 \textbf{Daniel Heimgartner} \\
@@ -44,37 +45,42 @@ Tel.: 077 508 33 72 \\
 \today
 }
 
-\vspace{1em}
+\vspace{2em}
 
-\textbf{Schweizerische Nationalbank} \\
-Human Resources \\
-Katrin Kuster
+\textbf{cynkra GmbH} \\
+Badenerstrasse 21 \\
+8004 Zürich \\
+Kirill Müller
 
-\vspace{1em}
+\vspace{6em}
 
-\textbf{Bewerbung als Economist/Business Analyst (80\% - 100\%)}
-
-\vspace{1em}
-
-Sehr geehrte Frau Kuster,
-
-Mit grossem Interesse bewerbe ich mich für die Position als Economist/Business Analyst im Team Kreditdaten der SNB. Dank meiner Ausbildung in Wirtschaftswissenschaften, meiner Erfahrung in der Datenerhebung und quantitativen Analyse, sowie meiner IT-Affinität, bringe ich die nötigen Voraussetzungen mit, um die Einzelkrediterhebung (EKE) aktiv mitzugestalten.
-
-Während meines Doktorats an der ETH Zürich habe ich mich intensiv mit Datenerhebung und -analyse beschäftigt. Nebenbei war ich am Institut für die Pflege der Forschungsdaten verantwortlich (darunter auch grosse und sensible Datensätze, wie beispielsweise 2 Jahre an GPS-Trajektorien). Dadurch kenne ich sowohl die Perspektive der Datenproduzenten als auch die der -nutzer.
-
-Mein Interesse am Schweizer Finanzmarkt hat sich unter anderem durch mein Praktikum in der Abteilung für Finanzstabilität der SNB vertieft, wo ich einen Beitrag zum Hypothekar- und COVID-Kreditmonitoring leisten durfte. Kredite ermöglichen die Geldmengenausweitung und folglich Investitionen, wo sie der Gesamtwirtschaft am meisten Nutzen bringen. Kredite sind aber auch immer mit Risiko behaftet und somit is es wichtig, dass die Banken genügend Kapitalreserven haben, um Ausfälle zu tragen. Die EKE trägt unmittelbar dazu bei, einen effizienten und robusten Finanzplatz zu gewährleisten, was ich als sehr sinnstiftend erachte.
-
-Ich bin motiviert, meine Kenntnisse und Erfahrungen in die SNB einzubringen, mich stetig weiter zu entwicklen und mich für die Kreditdatenerhebung und somit die Stabilität des Finanzplatzes zu engagieren. Sehr gerne würde ich Sie in einem persönlichen Gespräch von meinen Qualifikationen und meiner Motivation überzeugen.
-
-Ich freue mich auf Ihre Rückmeldung und stehe Ihnen für weitere Informationen jederzeit zur Verfügung.
-
-Freundliche Grüsse
+\textbf{Bewerbung als \R~Data Scientist mit DevOps-Schwerpunkt}
 
 \vspace{3em}
 
+Lieber Kirill,
+
+Ich richte diese Bewerbung an Dich, weil wir uns kurz am useR 2024 Meeting in Salzburg kennen lernten. Ich habe vergangenen Donnerstag mein Doktorat am IVT, ETH Zürich, unter der Betreuung von Kay Axhausen abgeschlossen und war sehr erfreut, dass 1. cynkra eine neue, hübsche Website hat und 2. darauf eine wie auf mich zugeschnittene Stelle publiziert ist.
+
+Im Rahmen meines Ökonomiestudiums habe ich eine starke Begeisterung für \R~entwickelt. In vertiefter Auseinandersetzung und durch meinen Wunsch, Technologien fundamental zu verstehen, durfte ich meine Kenntnisse Schritt für Schritt über \R~hinaus weiterentwickeln. Durch mein kontinuierliches Selbststudium, ist eine Begeisterung für das open source Ökosystem herangereift -- die Möglichkeit, den Source-Code zu inspizieren, zu verstehen und dadurch zu lernen.
+
+Das Doktorat habe ich primär angetreten, weil ich wusste, dass \pkg{mixl} am Institut entwickelt wurde. Mein Wunsch war es, einen ähnlichen Beitrag zu leisten, was letzten Endes in Form des \pkg{OPSR} Pakets in Erfüllung ging (OPSR steht für \emph{ordered probit switching regression} -- eine Form von \emph{endogenous switching regression} um unbiased Treatment Effekte basierend auf Querschnittsdaten zu schätzen). Programmieren (insbesondere in \R) war für mich auch immer eine Vertiefte auseinandersetzung mit Statistik. Auch da möchte ich meine Modellierungskenntnisse vertiefen und hoffentlich weitere Beiträge leisten. Ideen habe ich bereits!
+
+All meine Publikationen (und die gesamte Dissertation) habe ich selbstverständlich als \R-Pakete organisiert und die (Sweave-) Vignette repliziert die gesamte Analyse. Mir liegt es am Herzen, Analyse-Ergebnisse ansprechend zu präsentieren: Bisweilen verfolgte ich eine etwas nostalgische, akademische Ästhetik (meistens base \R~Grafiken und statische pdf Dokumente). Jedoch denke ich, dass ich gute Voraussetzungen mitbringe (u.a., Erfahrung in \R~Markdown und Shiny, sowie ein gutes Verständnis für Webtechnologien), um auch in der Business-Welt Ergebnisse prägnant zu vermitteln, deren Reproduzierbarkeit zu automatisieren und gewährleisten.
+
+\pagebreak
+
+Es würde mich sehr freuen, mich vertieft mit den DevOps-Praktiken von cynkra und deren Kunden auseinanderzusetzen. Auch hier habe ich keine Berührungsängste: Ich bin geübt im Terminal, kann zwischen verschiedenen Servern navigieren und diese konfigurieren. Ich bin motiviert, die Produkte von Posit noch vertiefter kennen zu lernen und stabile (OS-unabängige) Lösungen (z.B. mittels Docker) für Unternehmen zu implementieren. Zudem bereitet es mir Freude, meine Erfahrungen an andere zu vermitteln oder natürlich von Kolleginnen neue Dinge zu lernen!
+
+Als selbstmotivierte, lernbegeisterte, ruhige und dennoch offene Person, denke ich, dass ich gut in das Data Science Team von cynkra passen würde. Es würde mich freuen, bei einem Gespräch mehr über die Stelle zu erfahren!
+
+Beste Grüsse
+
+\vspace{4em}
+
 Daniel Heimgartner
 
-\vfill
+\vspace{3em}
 \begin{itemize}
     \item[-] Lebenslauf
     \item[-] Arbeitszeugnis SNB
