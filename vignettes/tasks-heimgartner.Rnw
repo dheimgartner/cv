@@ -1,0 +1,62 @@
+\documentclass{article}
+
+\SweaveOpts{engine=R, eps=FALSE, keep.source = TRUE}
+
+\pagenumbering{gobble}
+\setlength\parindent{0pt}
+
+\usepackage[skip=8pt plus1pt, indent=0pt]{parskip}
+
+\usepackage{lipsum}
+\usepackage[nochapters]{classicthesis}
+\usepackage[a4paper, top=2.5cm, bottom=3cm]{geometry}
+\usepackage{hyperref}
+\usepackage[ngerman]{babel}
+\usepackage{enumitem}
+\usepackage{heimisc}
+
+\setlist[itemize]{label=-}
+
+\definecolor{link}{rgb}{0.38,0.45,0.6}
+\hypersetup{
+  colorlinks,%
+  citecolor=link,%
+  filecolor=link,%
+  linkcolor=link,%
+  urlcolor=link
+}
+
+\newcommand{\rightAligned}[2]{
+\hfill
+\begin{minipage}{#1\textwidth}
+#2
+\end{minipage}
+}
+
+\newcommand{\taskItem}[2]{%
+\item \textbf{#1:} #2
+}%
+
+\begin{document}
+
+\textbf{Projects and Tasks Heimgartner}
+
+\begin{itemize}
+\taskItem{MOBIS-Covid}{Maintaining the data collection pipeline and managing multiple technologies (such as a \proglang{PostgreSQL} database and \proglang{Django} webapp).}
+\taskItem{Multimodality in the Swiss New Normal}{Lead in a research project as part of the \emph{Center for Sustainable Future Mobility}, investigating the impact of telework on transport demand; Data collection, stated preference experiments, econometric analysis, model integration in the MATSim framework and final report; Communicating and managing multiple project partners (SBB, AMAG, city and canton of Zurich).}
+\taskItem{IVT data manager}{Maintenance of research datasets and various databases; contact person for data access; liaison with various internal and external stakeholders; Re-estimating a model to update the relation between response burden and response rate.}
+\taskItem{Teaching the Bachelor seminar ``Projektübung Verkehr''}{Over three years, taught and applied transport planning methods; Students track their own mobility behavior based on a smartphone app, analyze and compare it to the sample, and estimate the value of travel time savings.}
+\taskItem{Assistant in the course ``Measuring and Modeling''}{Minor involvement; mainly answering students' questions.}
+\taskItem{Coffee supply manager}{Keeping the research group productive by managing the coffee supply.}
+\taskItem{Priority evaluator}{Estimating an MDCEV model to understand preferred strategies to reduce personal greenhouse gas emissions.}
+\taskItem{Supervision and support during Bachelor's and Master's theses}{Supporting students during their theses.}
+\taskItem{Swiss mobility panel}{Complex experimental design to investigate first-mile/PT access mode preferences and the importance of level-of-service attributes on the first mile for mode choice; Implementation in Qualtrics (in JavaScript).}
+\taskItem{Let's use xxx}{Initiator and tutor of the \emph{Let's use xxx} workshop in Prof. Bernauer's group; Teaching about \R~package development, the use of the terminal and \proglang{bash}, how to use version control (\proglang{git}) and how to collaborate via GitHub.}
+\taskItem{Initiator of and contributor to ivt-baug-ethz GitHub organization}{Making software development and research efforts more publicly visible and facilitating the sharing of useful tools.}
+\taskItem{OPSR}{Implementing the ordered probit switching regression modeling framework in \R~to estimate unbiased treatment effects based on cross-sectional data; In collaboration with Xinyi Wang (MIT Boston).}
+\taskItem{Various conferences}{TRB (2023 \& 2024), STRC (2023 \& 2024), hEART (2024), useR (2024).}
+\taskItem{Dissertation}{Measuring and Modeling the Impact of Telework on Transport Demand -- Data, Tools and Analysis.}
+\end{itemize}
+
+
+\end{document}
