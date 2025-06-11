@@ -86,7 +86,7 @@
             \item \textbf{Doktorat}, Institut für Verkehrsplanung und Transportsysteme, IVT, ETH Zürich, Prof. em. Kay W. Axhausen
             \marginpar{2021--heute}
             \begin{itemize}
-                \item \emph{Measuring and Modeling the Impact of Telework on Transport Demand -- Data, Tools and Analysis}: Datenerhebung, Stated-Preference Umfragen, Wahlmodellierung, Kausale Inferenz (Schätzung des Treatment effects auf Grundlage von Querschnittsdaten), (Mit-) Entwicklung verschiedener \proglang{R}-Pakete (\pkg{OPSR}, \pkg{mixl}, ...)
+                \item \emph{Measuring and Modeling the Impact of Telework on Transport Demand -- Data, Tools and Analysis}: Datenerhebung, Stated-Preference Umfragen, Wahlmodellierung, Kausale Inferenz (Schätzung des Treatment Effekts auf Grundlage von Querschnittsdaten), (Mit-) Entwicklung verschiedener \proglang{R}-Pakete (\pkg{OPSR}, \pkg{mixl}, ...)
                 \item Projetkleiter \emph{Multimodality in the Swiss New Normal}: Projektpartner: SBB, AMAG, Tiefbauamt Zürich, Kanton Zürich
                 \item Datenverantwortlicher: Pflege der Forschungsdatensätze und verschiedener Datenbanken, Ansprechsperson für Datenzugang, Austausch mit diversen internen und externen Stakeholdern
                 \item Kernkurse des Statistik Masters \emph{Measurement and Modeling \& Computational Statistics} erfolgreich absolviert
@@ -103,7 +103,7 @@
             \begin{itemize}
                 \item Zweitfach Business \& Economics
             \end{itemize}
-            \item \textbf{Militärdienst als Gebirgsspezialist}, Kompetenzzentrum Gebirgsdienst der Armee, Adermatt
+            \item \textbf{Militärdienst als Gebirgsspezialist}, Kompetenzzentrum Gebirgsdienst der Armee, Andermatt
             \marginpar{2012--2013}
             \begin{itemize}
                 \item Winter-RS (Ausbildung in Bergsport Sommer \& Winter); Alle Wiederholungskurse absolviert; Diverse Ski-, Alpin- und Klettertouren; Durchführung und Leitung von (internationalen) Aus- und Weiterbildungen
@@ -120,7 +120,8 @@
             \marginpar{2020--2021}
             \begin{itemize}
                 \item Hypothekar- und COVID-Kreditmonitoring
-                \item Datenaufbereitung und Mithilfe bei ökonomischen Analysen
+                \item Datenaufbereitung und Mithilfe bei ökonomischen Analysen, sowie deren Automatisierung
+                \item Implementierung von Shiny Apps
             \end{itemize}
             \item \textbf{Anstellung bei Nepa} im Rahmen der Masterarbeit, Stockholm
             \marginpar{2020}
@@ -128,6 +129,9 @@
                 \item Marketing-Mix-Modeling: Vergleich verschiedener Modelle, um den Zusammenhang zwischen Werbeausgaben und Umsatz zu messen
             \end{itemize}
             \item \textbf{Wissenschaftlicher Mitarbeiter}, Schweizerisches Institut für Empirische Wirtschaftsforschung, Universität St. Gallen
+            \begin{itemize}
+                \item Analyse von Geodaten in \R
+            \end{itemize}
             \marginpar{2019}
         \end{cvlist}
 
