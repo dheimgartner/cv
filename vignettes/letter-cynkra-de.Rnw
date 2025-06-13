@@ -1,0 +1,90 @@
+\documentclass{article}
+
+\SweaveOpts{engine=R, eps=FALSE, keep.source = TRUE}
+
+% \pagenumbering{gobble}
+\setlength\parindent{0pt}
+
+\usepackage[skip=8pt plus1pt, indent=0pt]{parskip}
+
+\usepackage{lipsum}
+\usepackage[nochapters]{classicthesis}
+\usepackage[a4paper, top=2.5cm, bottom=3cm]{geometry}
+\usepackage{hyperref}
+\usepackage[ngerman]{babel}
+\usepackage{heimisc}
+
+\definecolor{link}{rgb}{0.38,0.45,0.6}
+\hypersetup{
+  colorlinks,%
+  citecolor=link,%
+  filecolor=link,%
+  linkcolor=link,%
+  urlcolor=link
+}
+
+\newcommand{\rightAligned}[2]{
+\hfill
+\begin{minipage}{#1\textwidth}
+#2
+\end{minipage}
+}
+
+\begin{document}
+\thispagestyle{empty}
+
+\rightAligned{0.3}{
+\textbf{Daniel Heimgartner} \\
+Rütschistrasse 17 \\
+8037 Zürich \\
+Tel.: 077 508 33 72 \\
+\href{mailto:d.heimgartners@gmail.com}{d.heimgartners@gmail.com}
+}
+
+\rightAligned{0.3}{
+\today
+}
+
+\vspace{2em}
+
+\textbf{cynkra GmbH} \\
+Kirill Müller \\
+Badenerstrasse 21 \\
+8004 Zürich
+
+\vspace{6em}
+
+\textbf{Bewerbung als \R~Data Scientist mit DevOps-Schwerpunkt}
+
+\vspace{3em}
+
+Lieber Kirill,
+
+Ich richte diese Bewerbung an Dich, weil wir uns kurz am useR 2024 Meeting in Salzburg kennen lernten. Ich habe vergangenen Donnerstag mein Doktorat am IVT, ETH Zürich, unter der Betreuung von Kay Axhausen abgeschlossen und war sehr erfreut, dass 1. cynkra eine neue, hübsche Webseite hat und 2. darauf eine wie auf mich zugeschnittene Stelle publiziert ist.
+
+Im Rahmen meines Ökonomiestudiums habe ich eine starke Begeisterung für \R~entwickelt. Durch meinen Wunsch, Technologien fundamental zu verstehen, durfte ich meine Kenntnisse Schritt für Schritt über \R~hinaus weiterentwickeln. Während meinem kontinuierlichen Selbststudium, ist eine Begeisterung für das open source Ökosystem herangereift -- die Möglichkeit, den Source-Code zu inspizieren, zu verstehen und dadurch zu lernen.
+
+Das Doktorat habe ich primär angetreten, weil ich wusste, dass \pkg{mixl} am Institut entwickelt wurde. Mein Wunsch war es, einen ähnlichen Beitrag zu leisten, was letzten Endes in Form des \pkg{OPSR} Pakets in Erfüllung ging (OPSR steht für \emph{ordered probit switching regression} -- eine Form von \emph{endogenous switching regression} um unbiased Treatment Effekte basierend auf Querschnittsdaten zu schätzen). Programmieren (insbesondere in \R) war für mich auch immer eine vertiefte Auseinandersetzung mit Statistik. Auch da möchte ich meine Modellierungskenntnisse stetig verbessern und hoffentlich weitere Beiträge leisten. Ideen habe ich bereits!
+
+All meine Publikationen (und die gesamte Dissertation) habe ich selbstverständlich als \R-Pakete organisiert und die (Sweave-) Vignette repliziert die gesamte Analyse. Mir liegt es am Herzen, Analyse-Ergebnisse ansprechend zu präsentieren: Bisweilen verfolgte ich eine etwas nostalgische, akademische Ästhetik (meistens base \R~Grafiken und statische pdf Dokumente). Jedoch denke ich, dass ich gute Voraussetzungen mitbringe (u.a., Erfahrung in \R~Markdown und Shiny, sowie ein gutes Verständnis für Webtechnologien), um auch in der Business-Welt Ergebnisse prägnant zu vermitteln, deren Reproduzierbarkeit zu gewährleisten und automatisieren.
+
+\pagebreak
+
+Es würde mich sehr freuen, mich vertieft mit den DevOps-Praktiken von cynkra und deren Kunden auseinanderzusetzen. Auch hier habe ich keine Berührungsängste: Ich bin geübt im Terminal, kann zwischen verschiedenen Servern navigieren und diese konfigurieren. Ich bin motiviert, die Produkte von Posit noch grundlegender kennen zu lernen und stabile (OS-unabängige) Lösungen (z.B. mittels Docker) für Unternehmen zu implementieren. Zudem bereitet es mir Freude, meine Erfahrungen an andere zu vermitteln oder natürlich von Kolleginnen neue Dinge zu lernen!
+
+Als selbstmotivierte, lernbegeisterte, ruhige und dennoch offene Person, denke ich, dass ich gut in das Data Science Team von cynkra passen würde. Es würde mich freuen, bei einem Gespräch mehr über die Stelle zu erfahren!
+
+Beste Grüsse
+
+\vspace{4em}
+
+Daniel Heimgartner
+
+\vspace{3em}
+\begin{itemize}
+    \item[-] Lebenslauf
+    \item[-] Arbeitszeugnis SNB
+    \item[-] Masterzeugnis
+\end{itemize}
+
+\end{document}
