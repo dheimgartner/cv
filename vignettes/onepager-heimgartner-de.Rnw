@@ -1,0 +1,129 @@
+% cv example for classicthesis.sty
+\documentclass[10pt,a4paper]{scrartcl}
+\usepackage[LabelsAligned]{currvita} % nice cv style
+\usepackage{url}
+\usepackage[ngerman]{babel}
+\usepackage[nochapters]{classicthesis}
+% Some font experiments
+%\usepackage[osf]{libertine}
+%\usepackage{hfoldsty}
+%\usepackage[math]{iwona} %[light,condensed,math]
+%\renewcommand{\sfdefault}{iwona}
+%\usepackage{lmodern} % <-- no osf support :-(
+%\usepackage[urw-garamond]{mathdesign} %<-- no osf support :-(
+
+\SweaveOpts{engine=R, eps=FALSE, keep.source = TRUE}
+
+\renewcommand*{\cvheadingfont}{\LARGE\color{RoyalBlue}}
+\renewcommand*{\cvlistheadingfont}{\large}
+\renewcommand*{\cvlabelfont}{\qquad}
+
+% daniehei
+\usepackage{lipsum}
+\usepackage[a4paper, top=2.5cm, bottom=3cm]{geometry}
+% \usepackage{mathpazo} % for palantino font (but already loaded with classicthesis...
+\usepackage{enumitem}
+\usepackage{heimisc}
+\usepackage{hyperref}
+
+\setlist[itemize]{label=-}
+\reversemarginpar
+
+% \definecolor{link}{rgb}{0.45,0.51,0.67}
+\definecolor{link}{rgb}{0.38,0.45,0.6}
+\hypersetup{
+  colorlinks,%
+  citecolor=link,%
+  filecolor=link,%
+  linkcolor=link,%
+  urlcolor=link
+}
+
+\AtBeginDocument{%
+\setlength{\cvlabelwidth}{10mm}
+}%
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{cv}{\spacedallcaps{Daniel Heimgartner}}
+
+
+%% Persönliche Daten -----------------------------------------------------------
+\begin{itemize}[label={}]
+\item Rütschistrasse 17, 8037 Zürich
+\item Tel.:~077 508 33 72 \\
+      E"~Mail:~\href{mailto:d.heimgartners@gmail.com}{d.heimgartners@gmail.com}
+\item Geboren am 22. August 1992 \\
+      Schweiz
+\item \url{https://github.com/dheimgartner}
+\end{itemize}
+
+
+%% Über mich -------------------------------------------------------------------
+\noindent
+\R~Enthusiast; Statistisches Modellieren; Prozess-Automatisierung; Guter Kommunikator; Hohe Präsentationskompetenz; Selbstmotiviert und lernbegeistert
+
+
+%% Ausbildung ------------------------------------------------------------------
+\begin{cvlist}{\spacedlowsmallcaps{Ausbildung und Berufserfahrung}}\label{Ausbildung}
+\item \textbf{Doktorat}, Institut für Verkehrsplanung und Transportsysteme, IVT, ETH Zürich, Prof. em. Kay W. Axhausen
+\marginpar{2021--heute}
+\begin{itemize}
+\item \emph{Measuring and Modeling the Impact of Telework on Transport Demand -- Data, Tools and Analysis}: Datenerhebung, Stated-Preference Umfragen, Wahlmodellierung, Kausale Inferenz (Schätzung des Treatment Effekts auf Grundlage von Querschnittsdaten), (Mit-) Entwicklung verschiedener \proglang{R}-Pakete (\pkg{OPSR}, \pkg{mixl}, ...)
+\end{itemize}
+
+\item \textbf{Praktikant SNB}, Abteilung für Finanzstabilität, Schweizerische Nationalbank
+\marginpar{2020--2021}
+\begin{itemize}
+\item Datenaufbereitung und Mithilfe bei ökonomischen Analysen (z.B. Hypothekar- und COVID-Kreditmonitoring), sowie deren Automatisierung
+\end{itemize}
+
+\item \textbf{Anstellung bei Nepa} im Rahmen der Masterarbeit, Team Data Science, Stockholm
+\marginpar{2020}
+\begin{itemize}
+\item Marketing-Mix-Modeling: Vergleich verschiedener Modelle, um den Zusammenhang zwischen Werbeausgaben und Umsatz zu messen
+\end{itemize}
+
+\item \textbf{MSc. in Ökonomie}, Doppelmaster, Stockholm School of Economics \& Universität St. Gallen
+\marginpar{2018--2020}
+\begin{itemize}
+\item Vertiefung makroökonomisches Modellieren und Datenanalysen
+\end{itemize}
+
+\item \textbf{Wissenschaftlicher Mitarbeiter}, Schweizerisches Institut für Empirische Wirtschaftsforschung, Universität St. Gallen
+\marginpar{2019}
+\begin{itemize}
+\item Analyse von Geodaten in \R
+\end{itemize}
+
+\item \textbf{BSc. Sport, Bewegung und Gesundheit}, Universität Basel
+\marginpar{2015--2018}
+\begin{itemize}
+\item Zweitfach Business \& Economics
+\end{itemize}
+
+\item \textbf{Militärdienst als Gebirgsspezialist}, Kompetenzzentrum Gebirgsdienst der Armee, Andermatt
+\marginpar{2012--2013}
+\begin{itemize}
+\item Winter-RS (Ausbildung in Bergsport Sommer \& Winter); Alle Wiederholungskurse absolviert; Diverse Ski-, Alpin- und Klettertouren; Durchführung und Leitung von (internationalen) Aus- und Weiterbildungen
+\end{itemize}
+
+\item \textbf{Kantonsschule Wohlen}, Gymnasium
+\marginpar{2008--2012}
+\begin{itemize}
+\item Schwerpunktfach Mathematik \& Physik
+\end{itemize}
+
+\end{cvlist}
+
+
+%% Fähigkeiten -----------------------------------------------------------------
+\vspace{-1em}
+\begin{cvlist}{\spacedlowsmallcaps{Fähigkeiten}}\label{skill}
+\item \textbf{Software:} \proglang{R}, Python, \LaTeX, git (und GitHub), bash, Docker, sql, etwas C und JavaScript
+\item \textbf{Sprachen:} Deutsch (Muttersprache), Englisch (C1), Schwedisch (B2), Französisch (B1)
+\end{cvlist}
+
+\end{cv}
+\end{document}
