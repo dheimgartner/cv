@@ -42,7 +42,7 @@
 \begin{itemize}[label={}]
 \item Rütschistrasse 17, 8037 Zurich
 \item Tel.:~077 508 33 72 \\
-      E"~Mail:~\href{mailto:d.heimgartners@gmail.com}{d.heimgartners@gmail.com}
+      E-Mail:~\href{mailto:d.heimgartners@gmail.com}{d.heimgartners@gmail.com}
 \item Born on August 22, 1992 \\
       Switzerland
 \item \url{https://github.com/dheimgartner}
@@ -51,7 +51,7 @@
 
 %% About Me --------------------------------------------------------------------
 \noindent
-\R~Enthusiast; Statistical Modeling; Process Automation; Good Communicator; Strong Presentation Skills; Self-motivated and Eager to Learn
+\R~Enthusiast; Statistical modeling; Process automation; Good communicator; Strong presentation skills; Self-motivated and eager to learn
 
 
 %% Education and Work Experience -----------------------------------------------
@@ -59,7 +59,7 @@
 \item \textbf{PhD}, Institute for Transport Planning and Systems, IVT, ETH Zurich, Prof. em. Kay W. Axhausen
 \marginpar{2021--present}
 \begin{itemize}
-\item \emph{Measuring and Modeling the Impact of Telework on Transport Demand -- Data, Tools and Analysis}: Data collection, stated-preference surveys, choice modeling, causal inference (estimation of treatment effect using cross-sectional data), (co-) development of several \proglang{R} packages (\pkg{OPSR}, \pkg{mixl}, ...)
+\item \emph{Measuring and Modeling the Impact of Telework on Transport Demand -- Data, Tools and Analysis}: Data collection; Stated-preference surveys; Choice modeling; Causal inference (estimation of treatment effects using cross-sectional data); (Co-) development of several \proglang{R} packages (\pkg{OPSR}, \pkg{mixl}, ...)
 \end{itemize}
 
 \item \textbf{Intern SNB}, Financial Stability Department, Swiss National Bank
@@ -95,7 +95,7 @@
 \item \textbf{Military Service as Mountain Specialist}, Army Mountain Service Competence Center, Andermatt
 \marginpar{2012--2013}
 \begin{itemize}
-\item Winter basic training (training in mountain sports for summer \& winter); completed all refresher courses; various ski, alpine, and climbing tours; implementation and leadership of (international) training and education
+\item Winter-RS (training in mountaineering and organised/improvised rescue); Completed all repetition courses; Various ski, alpine, and climbing tours; Implementation and leadership of (international) training and education
 \end{itemize}
 
 \item \textbf{Kantonsschule Wohlen}, High School
