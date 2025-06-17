@@ -1,0 +1,118 @@
+\documentclass[10pt,a4paper]{scrartcl}
+\usepackage[LabelsAligned]{currvita}
+\usepackage{url}
+\usepackage[english]{babel}
+\usepackage[nochapters]{classicthesis}
+
+\SweaveOpts{engine=R, eps=FALSE, keep.source = TRUE}
+
+\renewcommand*{\cvheadingfont}{\LARGE\color{RoyalBlue}}
+\renewcommand*{\cvlistheadingfont}{\large}
+\renewcommand*{\cvlabelfont}{\qquad}
+
+\usepackage{lipsum}
+\usepackage[a4paper, top=2.5cm, bottom=3cm]{geometry}
+\usepackage{enumitem}
+\usepackage{heimisc}
+\usepackage{hyperref}
+
+\setlist[itemize]{label=-}
+\reversemarginpar
+
+\definecolor{link}{rgb}{0.38,0.45,0.6}
+\hypersetup{
+  colorlinks,%
+  citecolor=link,%
+  filecolor=link,%
+  linkcolor=link,%
+  urlcolor=link
+}
+
+\AtBeginDocument{%
+\setlength{\cvlabelwidth}{10mm}
+}%
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{cv}{\spacedallcaps{Daniel Heimgartner}}
+
+
+%% Personal Data ---------------------------------------------------------------
+\begin{itemize}[label={}]
+\item Rütschistrasse 17, 8037 Zurich
+\item Tel.:~077 508 33 72 \\
+      E"~Mail:~\href{mailto:d.heimgartners@gmail.com}{d.heimgartners@gmail.com}
+\item Born on August 22, 1992 \\
+      Switzerland
+\item \url{https://github.com/dheimgartner}
+\end{itemize}
+
+
+%% About Me --------------------------------------------------------------------
+\noindent
+\R~Enthusiast; Statistical Modeling; Process Automation; Good Communicator; Strong Presentation Skills; Self-motivated and Eager to Learn
+
+
+%% Education and Work Experience -----------------------------------------------
+\begin{cvlist}{\spacedlowsmallcaps{Education and Work Experience}}\label{education}
+\item \textbf{PhD}, Institute for Transport Planning and Systems, IVT, ETH Zurich, Prof. em. Kay W. Axhausen
+\marginpar{2021--present}
+\begin{itemize}
+\item \emph{Measuring and Modeling the Impact of Telework on Transport Demand -- Data, Tools and Analysis}: Data collection, stated-preference surveys, choice modeling, causal inference (estimation of treatment effect using cross-sectional data), (co-) development of several \proglang{R} packages (\pkg{OPSR}, \pkg{mixl}, ...)
+\end{itemize}
+
+\item \textbf{Intern SNB}, Financial Stability Department, Swiss National Bank
+\marginpar{2020--2021}
+\begin{itemize}
+\item Data preparation and assistance with economic analyses (e.g., mortgage and COVID credit monitoring), as well as automation thereof
+\end{itemize}
+
+\item \textbf{Employment at Nepa} as part of Master's thesis, Data Science Team, Stockholm
+\marginpar{2020}
+\begin{itemize}
+\item Marketing Mix Modeling: Comparison of different models to measure the relationship between advertising spend and revenue
+\end{itemize}
+
+\item \textbf{MSc. in Economics}, Double Degree, Stockholm School of Economics \& University of St. Gallen
+\marginpar{2018--2020}
+\begin{itemize}
+\item Focus on macroeconomic modeling and data analysis
+\end{itemize}
+
+\item \textbf{Research Assistant}, Swiss Institute for Empirical Economic Research, University of St. Gallen
+\marginpar{2019}
+\begin{itemize}
+\item Analysis of geospatial data in \R
+\end{itemize}
+
+\item \textbf{BSc. in Sport, Exercise and Health}, University of Basel
+\marginpar{2015--2018}
+\begin{itemize}
+\item Minor in Business \& Economics
+\end{itemize}
+
+\item \textbf{Military Service as Mountain Specialist}, Army Mountain Service Competence Center, Andermatt
+\marginpar{2012--2013}
+\begin{itemize}
+\item Winter basic training (training in mountain sports for summer \& winter); completed all refresher courses; various ski, alpine, and climbing tours; implementation and leadership of (international) training and education
+\end{itemize}
+
+\item \textbf{Kantonsschule Wohlen}, High School
+\marginpar{2008--2012}
+\begin{itemize}
+\item Major in Mathematics \& Physics
+\end{itemize}
+
+\end{cvlist}
+
+
+%% Skills ----------------------------------------------------------------------
+\vspace{-1em}
+\begin{cvlist}{\spacedlowsmallcaps{Skills}}\label{skills}
+\item \textbf{Software:} \proglang{R}, Python, \LaTeX, git (and GitHub), bash, Docker, sql, some C and JavaScript
+\item \textbf{Languages:} German (native), English (C1), Swedish (B2), French (B1)
+\end{cvlist}
+
+\end{cv}
+\end{document}
