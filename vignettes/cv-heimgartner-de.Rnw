@@ -86,9 +86,9 @@
             \item \textbf{Doktorat}, Institut für Verkehrsplanung und Transportsysteme, IVT, ETH Zürich, Prof. em. Kay W. Axhausen
             \marginpar{2021--heute}
             \begin{itemize}
-                \item \emph{Measuring and Modeling the Impact of Telework on Transport Demand -- Data, Tools and Analysis}: Datenerhebung, Stated-Preference Umfragen, Wahlmodellierung, Kausale Inferenz (Schätzung des Treatment Effekts auf Grundlage von Querschnittsdaten), (Mit-) Entwicklung verschiedener \proglang{R}-Pakete (\pkg{OPSR}, \pkg{mixl}, ...)
+                \item \emph{Measuring and Modeling the Impact of Telework on Transport Demand -- Data, Tools and Analysis}: Datenerhebung; Stated-Preference Umfragen; Wahlmodellierung; Kausale Inferenz (Schätzung des Treatment Effekts auf Grundlage von Querschnittsdaten); (Mit-) Entwicklung verschiedener \proglang{R}-Pakete (\pkg{OPSR}, \pkg{mixl}, ...)
                 \item Projetkleiter \emph{Multimodality in the Swiss New Normal}: Projektpartner: SBB, AMAG, Tiefbauamt Zürich, Kanton Zürich
-                \item Datenverantwortlicher: Pflege der Forschungsdatensätze und verschiedener Datenbanken, Ansprechsperson für Datenzugang, Austausch mit diversen internen und externen Stakeholdern
+                \item Datenverantwortlicher: Pflege der Forschungsdatensätze und verschiedener Datenbanken, Ansprechsperson für Datenzugang; Austausch mit diversen internen und externen Stakeholdern
                 \item Kernkurse des Statistik Masters \emph{Measurement and Modeling \& Computational Statistics} erfolgreich absolviert
                 \item Diverse Publikationen und Konferenzbeiträge: \emph{TRB (2023\&24), STRC (2023\&24), hEART (2024), useR (2024)}
                 \item Lehrbeauftragter Bachelor-Seminar \emph{Projektübung Verkehr}: Studierende tracken sich mittels GPS-App, analysieren ihr eigenes Mobilitätsverhalten und schätzen Zeitwerte
