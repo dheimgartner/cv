@@ -32,11 +32,11 @@
 % \definecolor{link}{rgb}{0.45,0.51,0.67}
 \definecolor{link}{rgb}{0.38,0.45,0.6}
 \hypersetup{
-  colorlinks,%
-  citecolor=link,%
-  filecolor=link,%
-  linkcolor=link,%
-  urlcolor=link
+colorlinks,
+citecolor=link,
+filecolor=link,
+linkcolor=link,
+urlcolor=link
 }
 
 % \AtBeginDocument{%
@@ -45,100 +45,117 @@
 
 \begin{document}
 \thispagestyle{empty}
-    \begin{cv}{\spacedallcaps{Curriculum Vit\ae}}
-        %\pdfbookmark[1]{Pers\"onliche Daten}{PersDat}
-        \begin{cvlist}{\spacedlowsmallcaps{Pers\"onliche Daten}}\label{PersDat}
-            \item   Daniel Heimgartner \\
-                    Rütschistrasse 17, 8037 Zürich
-            \item   Tel.:~077 508 33 72 \\
-                    E"~Mail:~\href{mailto:d.heimgartners@gmail.com}{d.heimgartners@gmail.com}
-            \item   Geboren am 22. August 1992 \\
-                    Schweiz
-            \item   \url{https://github.com/dheimgartner} \\
-        \end{cvlist}
+\begin{cv}{\spacedallcaps{Curriculum Vit\ae}}
 
-        %\pdfbookmark[1]{Irgendwas}{irgendwas}
-        \begin{cvlist}{\spacedlowsmallcaps{Über mich}}\label{irgendwas}
-        \item
-        \end{cvlist}
-        \vspace{-3em}
-            \begin{itemize}[nosep]
-              \item Weitreichende Kenntnisse in \R, \R-package development und Leidenschaft für open source
-              \begin{itemize}[nosep]
-              \item Autor des \pkg{OPSR} Pakets \url{https://github.com/dheimgartner/OPSR/tree/dev} (auch auf CRAN verfügbar)
-              \item Contributor bei verschiedenen Projekten: z.B. \pkg{mixl} (wie auch Kirill Müller), \pkg{XRPython} (zusammen mit John Chambers) und auch ausserhalb \R~(z.B. \pkg{yolo.nvim} \url{https://github.com/dheimgartner/yolo.nvim})
-              \item Bug reporting (z.B. \url{https://github.com/r-lib/testthat/issues/1997})
-              \item Teilnehmer an der useR 2024 Konferenz in Salzburg
-              \end{itemize}
-              \item Fundierte Programmierkenntnisse (über \R~hinaus)
-              \begin{itemize}[nosep]
-              \item Interesse an Web-Technologien (HTMLwidget für Shiny -- SurveyJS Wrapper \url{https://github.com/dheimgartner/surveytools}; Grundkenntnisse in \proglang{JavaScript} und Web-Frameworks wie \proglang{django} oder \proglang{react})
-              \item Erfahrung in Server und Datenbank Management (geübt in unix-shell/bash \url{https://github.com/dheimgartner/MOBISarchive/blob/main/main.sh}, ssh, etc.), sowie Docker (z.B. \url{https://github.com/dheimgartner/shiny-deploy}).
-              \end{itemize}
-              \item Interesse, meine statistischen Modellierungskenntnisse zu vertiefen und weitere Beiträge zu leisten (z.B. Implementierung eines Copula modeling frameworks in \R)
-              \item Sinn für (Prozess-) Ästhetik und Motivation, Analyseergebnisse in ansprechender und eleganter Form zu präsentieren und deren Reproduzierbarkeit zu gewährleisten
-              \item Anliegen, nützliche Erfahrungen und Tools weiter zu geben: Initiant und Dozent des \emph{let's use xxx} Data Science Workshops in unserer Forschungsgruppe \url{https://github.com/orgs/lets-use-xxx/repositories}
-              \item Sichere Ausdrucksweise in Wort und Schrift, sowie Präsentationskompetenz
-              \item Lernbegeisterte und selbstmotivierte Person
-            \end{itemize}
 
-        \begin{cvlist}{\spacedlowsmallcaps{Ausbildung}}\label{education}
-            \item \textbf{Doktorat}, Institut für Verkehrsplanung und Transportsysteme, IVT, ETH Zürich, Prof. em. Kay W. Axhausen
-            \marginpar{2021--heute}
-            \begin{itemize}
-                \item \emph{Measuring and Modeling the Impact of Telework on Transport Demand -- Data, Tools and Analysis}: Datenerhebung; Stated-Preference Umfragen; Wahlmodellierung; Kausale Inferenz (Schätzung des Treatment Effekts auf Grundlage von Querschnittsdaten); (Mit-) Entwicklung verschiedener \proglang{R}-Pakete (\pkg{OPSR}, \pkg{mixl}, ...)
-                \item Projetkleiter \emph{Multimodality in the Swiss New Normal}: Projektpartner: SBB, AMAG, Tiefbauamt Zürich, Kanton Zürich
-                \item Datenverantwortlicher: Pflege der Forschungsdatensätze und verschiedener Datenbanken, Ansprechsperson für Datenzugang; Austausch mit diversen internen und externen Stakeholdern
-                \item Kernkurse des Statistik Masters \emph{Measurement and Modeling \& Computational Statistics} erfolgreich absolviert
-                \item Diverse Publikationen und Konferenzbeiträge: \emph{TRB (2023\&24), STRC (2023\&24), hEART (2024), useR (2024)}
-                \item Lehrbeauftragter Bachelor-Seminar \emph{Projektübung Verkehr}: Studierende tracken sich mittels GPS-App, analysieren ihr eigenes Mobilitätsverhalten und schätzen Zeitwerte
-            \end{itemize}
-            \item \textbf{MSc. in Ökonomie}, Doppelmaster, Stockholm School of Economics \& Universität St. Gallen
-            \marginpar{2018--2020}
-            \begin{itemize}
-                \item Vertiefung makroökonomisches Modellieren und Datenanalysen
-            \end{itemize}
-            \item \textbf{BSc. Sport, Bewegung und Gesundheit}, Universität Basel
-            \marginpar{2015--2018}
-            \begin{itemize}
-                \item Zweitfach Business \& Economics
-            \end{itemize}
-            \item \textbf{Militärdienst als Gebirgsspezialist}, Kompetenzzentrum Gebirgsdienst der Armee, Andermatt
-            \marginpar{2012--2013}
-            \begin{itemize}
-                \item Winter-RS (Ausbildung in Bergsport Sommer \& Winter); Alle Wiederholungskurse absolviert; Diverse Ski-, Alpin- und Klettertouren; Durchführung und Leitung von (internationalen) Aus- und Weiterbildungen
-            \end{itemize}
-            \item \textbf{Kantonsschule Wohlen}, Gymnasium
-            \marginpar{2008--2012}
-            \begin{itemize}
-                \item Schwerpunktfach Mathematik \& Physik
-            \end{itemize}
-        \end{cvlist}
+%% Persönliche Daten -----------------------------------------------------------
+%\pdfbookmark[1]{Pers\"onliche Daten}{PersDat}
+\begin{cvlist}{\spacedlowsmallcaps{Pers\"onliche Daten}}\label{PersDat}
+\item Daniel Heimgartner\\
+      Rütschistrasse 17, 8037 Zürich
+\item Tel.:~077 508 33 72\\
+      E"~Mail:~\href{mailto:d.heimgartners@gmail.com}{d.heimgartners@gmail.com}
+\item Geboren am 22. August 1992\\
+      Schweiz
+\item \url{https://github.com/dheimgartner}\\
+\end{cvlist}
 
-        \begin{cvlist}{\spacedlowsmallcaps{Berufserfahrung}}\label{work}
-            \item \textbf{Praktikant SNB}, Abteilung für Finanzstabilität, Schweizerische Nationalbank
-            \marginpar{2020--2021}
-            \begin{itemize}
-                \item Hypothekar- und COVID-Kreditmonitoring
-                \item Datenaufbereitung und Mithilfe bei ökonomischen Analysen, sowie deren Automatisierung
-                \item Implementierung von Shiny Apps
-            \end{itemize}
-            \item \textbf{Anstellung bei Nepa} im Rahmen der Masterarbeit, Stockholm
-            \marginpar{2020}
-            \begin{itemize}
-                \item Marketing-Mix-Modeling: Vergleich verschiedener Modelle, um den Zusammenhang zwischen Werbeausgaben und Umsatz zu messen
-            \end{itemize}
-            \item \textbf{Wissenschaftlicher Mitarbeiter}, Schweizerisches Institut für Empirische Wirtschaftsforschung, Universität St. Gallen
-            \begin{itemize}
-                \item Analyse von Geodaten in \R
-            \end{itemize}
-            \marginpar{2019}
-        \end{cvlist}
 
-        \begin{cvlist}{\spacedlowsmallcaps{Fähigkeiten}}\label{skill}
-            \item \textbf{Software:} \proglang{R}, Python, \LaTeX, git (und GitHub), bash, Docker, sql, etwas C (primär durch Lektüre der Bibel \emph{The C Programming Language}) und JavaScript
-            \item \textbf{Sprachen:} Deutsch (Muttersprache), Englisch (C1), Schwedisch (B2), Französisch (B1)
-        \end{cvlist}
+%% Über mich -------------------------------------------------------------------
+%\pdfbookmark[1]{Irgendwas}{irgendwas}
+\begin{cvlist}{\spacedlowsmallcaps{Über mich}}\label{irgendwas}
+\item
+\end{cvlist}
+\vspace{-3em}
+\begin{itemize}[nosep]
+\item Weitreichende Kenntnisse in \R, \R-package development und Leidenschaft für Open Source
+\begin{itemize}[nosep]
+\item Autor des \pkg{OPSR} Pakets \url{https://github.com/dheimgartner/OPSR/tree/dev} (auch auf CRAN verfügbar)
+\item Contributor bei verschiedenen Projekten: z.B. \pkg{mixl} (wie auch Kirill Müller), \pkg{XRPython} (zusammen mit John Chambers) und auch ausserhalb \R~(z.B. \pkg{yolo.nvim} \url{https://github.com/dheimgartner/yolo.nvim})
+\item Bug reporting (z.B. \url{https://github.com/r-lib/testthat/issues/1997})
+\item Teilnehmer an der useR 2024 Konferenz in Salzburg
+\end{itemize}
+\item Fundierte Programmierkenntnisse (über \R~hinaus)
+\begin{itemize}[nosep]
+\item Interesse an Web-Technologien (HTMLwidget für Shiny -- SurveyJS Wrapper \url{https://github.com/dheimgartner/surveytools}; Grundkenntnisse in \proglang{JavaScript} und Web-Frameworks wie \proglang{django} oder \proglang{react})
+\item Erfahrung in Server und Datenbank Management (geübt in unix-shell/bash \url{https://github.com/dheimgartner/MOBISarchive/blob/main/main.sh}, ssh, etc.), sowie Docker (z.B. \url{https://github.com/dheimgartner/shiny-deploy}).
+\end{itemize}
+\item Interesse, meine statistischen Modellierungskenntnisse zu vertiefen und weitere Beiträge zu leisten (z.B. Implementierung eines Copula modeling frameworks in \R)
+\item Sinn für (Prozess-) Ästhetik und Motivation, Analyseergebnisse in ansprechender und eleganter Form zu präsentieren und deren Reproduzierbarkeit zu gewährleisten
+\item Anliegen, nützliche Erfahrungen und Tools weiter zu geben: Initiant und Dozent des \emph{let's use xxx} Data Science Workshops in unserer Forschungsgruppe \url{https://github.com/orgs/lets-use-xxx/repositories}
+\item Sichere Ausdrucksweise in Wort und Schrift, sowie Präsentationskompetenz
+\item Lernbegeisterte und selbstmotivierte Person
+\end{itemize}
 
-    \end{cv}
+
+%% Ausbildung ------------------------------------------------------------------
+\begin{cvlist}{\spacedlowsmallcaps{Ausbildung}}\label{education}
+\item \textbf{Doktorat}, Institut für Verkehrsplanung und Transportsysteme, IVT, ETH Zürich, Prof. em. Kay W. Axhausen
+\marginpar{2021--heute}
+\begin{itemize}
+\item \emph{Measuring and Modeling the Impact of Telework on Transport Demand -- Data, Tools and Analysis}: Datenerhebung; Stated-Preference Umfragen; Wahlmodellierung; Kausale Inferenz (Schätzung des Treatment Effekts auf Grundlage von Querschnittsdaten); (Mit-) Entwicklung verschiedener \proglang{R}-Pakete (\pkg{OPSR}, \pkg{mixl}, ...)
+\item Projetkleiter \emph{Multimodality in the Swiss New Normal}: Projektpartner: SBB, AMAG, Tiefbauamt Zürich, Kanton Zürich
+\item Datenverantwortlicher: Pflege der Forschungsdatensätze und verschiedener Datenbanken, Ansprechsperson für Datenzugang; Austausch mit diversen internen und externen Stakeholdern
+\item Kernkurse des Statistik Masters \emph{Measurement and Modeling \& Computational Statistics} erfolgreich absolviert
+\item Diverse Publikationen und Konferenzbeiträge: \emph{TRB (2023\&24), STRC (2023\&24), hEART (2024), useR (2024)}
+\item Lehrbeauftragter Bachelor-Seminar \emph{Projektübung Verkehr}: Studierende tracken sich mittels GPS-App, analysieren ihr eigenes Mobilitätsverhalten und schätzen Zeitwerte
+\end{itemize}
+
+\item \textbf{MSc. in Ökonomie}, Doppelmaster, Stockholm School of Economics \& Universität St. Gallen
+\marginpar{2018--2020}
+\begin{itemize}
+\item Vertiefung makroökonomisches Modellieren und Datenanalysen
+\end{itemize}
+
+\item \textbf{BSc. Sport, Bewegung und Gesundheit}, Universität Basel
+\marginpar{2015--2018}
+\begin{itemize}
+\item Zweitfach Business \& Economics
+\end{itemize}
+
+\item \textbf{Militärdienst als Gebirgsspezialist}, Kompetenzzentrum Gebirgsdienst der Armee, Andermatt
+\marginpar{2012--2013}
+\begin{itemize}
+\item Winter-RS (Ausbildung in Bergsport Sommer \& Winter); Alle Wiederholungskurse absolviert; Diverse Ski-, Alpin- und Klettertouren; Durchführung und Leitung von (internationalen) Aus- und Weiterbildungen
+\end{itemize}
+
+\item \textbf{Kantonsschule Wohlen}, Gymnasium
+\marginpar{2008--2012}
+\begin{itemize}
+\item Schwerpunktfach Mathematik \& Physik
+\end{itemize}
+\end{cvlist}
+
+
+%% Berufserfahrung -------------------------------------------------------------
+\begin{cvlist}{\spacedlowsmallcaps{Berufserfahrung}}\label{work}
+\item \textbf{Praktikant SNB}, Abteilung für Finanzstabilität, Schweizerische Nationalbank
+\marginpar{2020--2021}
+\begin{itemize}
+\item Hypothekar- und COVID-Kreditmonitoring
+\item Datenaufbereitung und Mithilfe bei ökonomischen Analysen, sowie deren Automatisierung
+\item Implementierung von Shiny Apps
+\end{itemize}
+
+\item \textbf{Anstellung bei Nepa} im Rahmen der Masterarbeit, Stockholm
+\marginpar{2020}
+\begin{itemize}
+\item Marketing-Mix-Modeling: Vergleich verschiedener Modelle, um den Zusammenhang zwischen Werbeausgaben und Umsatz zu messen
+\end{itemize}
+
+\item \textbf{Wissenschaftlicher Mitarbeiter}, Schweizerisches Institut für Empirische Wirtschaftsforschung, Universität St. Gallen
+\begin{itemize}
+\item Analyse von Geodaten in \R
+\end{itemize}
+\marginpar{2019}
+\end{cvlist}
+
+
+%% Fähigkeiten -----------------------------------------------------------------
+\begin{cvlist}{\spacedlowsmallcaps{Fähigkeiten}}\label{skill}
+\item \textbf{Software:} \proglang{R}, Python, \LaTeX, git (und GitHub), bash, Docker, sql, etwas C (primär durch Lektüre der Bibel \emph{The C Programming Language}) und JavaScript
+\item \textbf{Sprachen:} Deutsch (Muttersprache), Englisch (C1), Schwedisch (B2), Französisch (B1)
+\end{cvlist}
+
+\end{cv}
 \end{document}
