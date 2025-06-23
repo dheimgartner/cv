@@ -68,21 +68,14 @@ urlcolor=link
 \end{cvlist}
 \vspace{-3em}
 \begin{itemize}[nosep]
+\item Experte in kausaler Modellierung (Statistik/Ökonometrie)
 \item Weitreichende Kenntnisse in \R, \R-package development und Leidenschaft für Open Source
-\begin{itemize}[nosep]
 \item Autor des \pkg{OPSR} Pakets \url{https://github.com/dheimgartner/OPSR/tree/dev} (auch auf CRAN verfügbar)
-\item Contributor bei verschiedenen Projekten: z.B. \pkg{mixl} (wie auch Kirill Müller), \pkg{XRPython} (zusammen mit John Chambers) und auch ausserhalb \R~(z.B. \pkg{yolo.nvim} \url{https://github.com/dheimgartner/yolo.nvim})
-\item Bug reporting (z.B. \url{https://github.com/r-lib/testthat/issues/1997})
-\item Teilnehmer an der useR 2024 Konferenz in Salzburg
-\end{itemize}
-\item Fundierte Programmierkenntnisse (über \R~hinaus)
-\begin{itemize}[nosep]
-\item Interesse an Web-Technologien (HTMLwidget für Shiny -- SurveyJS Wrapper \url{https://github.com/dheimgartner/surveytools}; Grundkenntnisse in \proglang{JavaScript} und Web-Frameworks wie \proglang{django} oder \proglang{react})
-\item Erfahrung in Server und Datenbank Management (geübt in unix-shell/bash \url{https://github.com/dheimgartner/MOBISarchive/blob/main/main.sh}, ssh, etc.), sowie Docker (z.B. \url{https://github.com/dheimgartner/shiny-deploy}).
-\end{itemize}
-\item Interesse, meine statistischen Modellierungskenntnisse zu vertiefen und weitere Beiträge zu leisten (z.B. Implementierung eines Copula modeling frameworks in \R)
+\item Fundierte Programmierkenntnisse (über \R~hinaus) und schnelle Auffassungsgabe für neue Konzepte, Frameworks und Programmiersprachen
+\item Erfahrung in Server und Datenbank Management (geübt in unix-shell/bash, ssh, PostgreSQL, etc.)
 \item Sinn für (Prozess-) Ästhetik und Motivation, Analyseergebnisse in ansprechender und eleganter Form zu präsentieren und deren Reproduzierbarkeit zu gewährleisten
-\item Anliegen, nützliche Erfahrungen und Tools weiter zu geben: Initiant und Dozent des \emph{let's use xxx} Data Science Workshops in unserer Forschungsgruppe \url{https://github.com/orgs/lets-use-xxx/repositories}
+\item Anliegen, nützliche Erfahrungen und Tools weiter zu geben: Initiant und Leiter Data Science Workshops in unserer Forschungsgruppe \url{https://github.com/orgs/lets-use-xxx/repositories}
+\item Erfahrung in Projektleitung (Koordination verschiedener Stakeholder aus Akademie und Praxis)
 \item Sichere Ausdrucksweise in Wort und Schrift, sowie Präsentationskompetenz
 \item Lernbegeisterte und selbstmotivierte Person
 \end{itemize}
