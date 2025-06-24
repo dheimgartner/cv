@@ -1,0 +1,82 @@
+\documentclass{article}
+
+\SweaveOpts{engine=R, eps=FALSE, keep.source = TRUE}
+
+% \pagenumbering{gobble}
+\setlength\parindent{0pt}
+
+\usepackage[skip=8pt plus1pt, indent=0pt]{parskip}
+
+\usepackage{lipsum}
+\usepackage[nochapters]{classicthesis}
+\usepackage[a4paper, top=2.5cm, bottom=3cm]{geometry}
+\usepackage{hyperref}
+\usepackage[ngerman]{babel}
+\usepackage{heimisc}
+
+\definecolor{link}{rgb}{0.38,0.45,0.6}
+\hypersetup{
+  colorlinks,%
+  citecolor=link,%
+  filecolor=link,%
+  linkcolor=link,%
+  urlcolor=link
+}
+
+\newcommand{\rightAligned}[2]{
+\hfill
+\begin{minipage}{#1\textwidth}
+#2
+\end{minipage}
+}
+
+\begin{document}
+\thispagestyle{empty}
+
+\rightAligned{0.3}{
+\textbf{Daniel Heimgartner} \\
+Rütschistrasse 17 \\
+8037 Zürich \\
+Tel.: 077 508 33 72 \\
+\href{mailto:d.heimgartners@gmail.com}{d.heimgartners@gmail.com}
+}
+
+\rightAligned{0.3}{
+\today
+}
+
+\vspace{4em}
+
+\textbf{Bewerbung als Spezialist für Datenerhebung und Prozessautomatisierungen}
+
+\vspace{2em}
+
+Sehr geehrte Frau Barrios,
+
+Die ausgeschriebene Position verbindet mein technisches Profil ideal mit meinem Interesse an eleganter, effizienter und nutzungsorientierter Datenverarbeitung.  Automatisierung und klare Datenprozesse sind für mich zentrale Anliegen -- denn nur so können reproduzierbare Analysen durchgeführt und nachvollziehbare, datengestützte Entscheide getroffen werden.
+
+Im Rahmen meines Doktorats an der ETH Zürich leitete ich ein angewandtes Forschungsprojekt mit Partnern wie der SBB und dem Kanton Zürich. Dabei war ich für Erhebungskonzeption, Datenpflege und Modellierung unter Anwendung verschiedenster Technologien (\R, SQL, Git, bash, etc.) verantwortlich. Ich entwickelte aktiv Software (z.B. das \R-Paket OPSR), habe Erfahrung mit Webtechnologien (Shiny, Django, HTML, CSS und JavaScript), REST-APIs sowie CI/CD-Workflows.
+
+Durch meine Tätigkeit bei der Schweizerischen Nationalbank bin ich mit der Entwicklung von Erhebungsinstrumenten, der Datenerhebung und Analyse vertraut und war aktiv an deren Automatisierung und  der Entwicklung von Monitoring-Tools beteiligt.
+
+Neben der technischen Expertise bringe ich eine strukturierte und lösungsorientierte Arbeitsweise mit, gepaart mit hoher Eigeninitiative, Lernfreude und Belastbarkeit. In interdisziplinären Teams arbeite ich kooperativ und kommuniziere komplexe Inhalte verständlich und adressatengerecht. Ich kenne sowohl die Bedürfnisse des Datenproduzenten, als auch des Datenkonsumenten und kann dadurch effizient zwischen Lieferanten und Endnutzern kommunizieren.
+
+Ich bin überzeugt, dass ich mit meinem breiten Profil und meiner Begeisterung für durchdachte, automatisierte Lösungen einen echten Mehrwert für den Aufbau des neuen Competence Centers leisten kann.
+
+Es würde mich freuen, Ihnen meinen Hintergrund und Motivation in einem persönlichen Gespräch näher zu erläutern.
+
+Freundliche Grüsse
+
+\vspace{2em}
+
+Daniel Heimgartner
+
+\vspace{1em}
+\begin{itemize}
+    \item[-] Lebenslauf
+    \item[-] Arbeitszeugnis SNB
+    \item[-] Referenzschreiben
+    \item[-] Masterzeugnis
+\end{itemize}
+
+\end{document}

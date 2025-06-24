@@ -20,7 +20,7 @@
 
 % daniehei
 \usepackage{lipsum}
-\usepackage[a4paper, top=2.5cm, bottom=3cm]{geometry}
+\usepackage[a4paper, top=2.5cm, bottom=3cm, right=2cm]{geometry}
 % \usepackage{mathpazo} % for palantino font (but already loaded with classicthesis...
 \usepackage{enumitem}
 \usepackage{heimisc}
@@ -63,19 +63,20 @@ urlcolor=link
 
 %% Über mich -------------------------------------------------------------------
 %\pdfbookmark[1]{Irgendwas}{irgendwas}
-\begin{cvlist}{\spacedlowsmallcaps{Über mich}}\label{irgendwas}
+\begin{cvlist}{\spacedlowsmallcaps{Stellenprofil}}\label{stellenprofil}
 \item
 \end{cvlist}
 \vspace{-2em}
-\begin{tabular}{p{6cm}p{8cm}}
+\begin{tabular}{p{6cm}p{9cm}}
 \textbf{Anforderung} & \textbf{Meine Qualifikation}\\
-Aus-/Weiterbiludng in Informatik oder Wirtschaftsinformatik & Doktorat mit starkem quantitativen, daten- und technikorientierten Fokus (ETH Zürich); MSc in Ökonomie mit quantitativer Vertiefung\\
-Beratung von Stakeholdern, Projektkoordination & Mehrjährige Erfahrung mit Stakeholdern aus Forschung und Praxis (z.B. SBB, AMAG, Tiefbauamt), Projektleitung\\
-Datenerhebung, Gestaltung von Erhebungen & Umfangreiche Erfahrung mit Stated-Preference-Umfragen und Datenanalyse\\
-Analytisches Denkvermögen und Problemlösungskompetenz & Stark belegt durch deine Forschung, deine R-Pakete und Open-Source-Projekte\\
-Programmierkenntnisse und schnelle Auffassungsgabe & R, Python, Bash, SQL, Git, LaTeX – sehr breit aufgestellt; du bist zudem Entwickler eigener Tools\\
-Datenbank- und Servererfahrung & PostgreSQL, Unix-shell etc. -- vorhanden\\
-Gute Sprachkenntnisse (Deutsch C2, Englisch B2) & Deutsch: Muttersprache; Englisch: C1\\
+Aus-/Weiterbiludng in Informatik oder Wirtschaftsinformatik & Doktorat mit starkem quantitativen, daten- und technikorientierten Fokus (ETH Zürich); MSc in Ökonomie mit quantitativer Vertiefung; 5 Jahre Selbststudium Programmieren\\
+Beratung von Stakeholdern, Projektkoordination & Mehrjährige Erfahrung mit Stakeholdern aus Forschung und Praxis, Projektleitung\\
+Datenerhebung, Gestaltung von Erhebungen & Umfangreiche Erfahrung mit komplexer Umfragekonzeption und -durchführung, sowie anschliessende Datenanalyse und Prozessautomatisierung\\
+Analytisches Denkvermögen und Problemlösungskompetenz & Mehrjährige Forschungstätigkeit, \R-Paket-Entwicklung und Beteiligung an verschiedenen Open-Source Projekten\\
+Programmierkenntnisse und schnelle Auffassungsgabe & \R, Python, Bash, HTML, CSS, JavaScript, SQL, Git, \LaTeX -- Fähigkeit und Wille, neue Konzepte/Sprachen schnell anzueignen\\
+Fundierte Kenntnisse in XML / XSD / T-SQL / XPath & Kenntnis diverser Markup-Sprachen, Serialization und Dezerialization, Object Relational Model, etc. Motivation allfällige Lücken schnell zu schliessen\\
+Datenbank- und Servererfahrung & Geübt in SQL, Unix-shell, ssh, etc.\\
+Gute Sprachkenntnisse & Deutsch (Muttersprache); Englisch (C1); Schwedisch (B2); Französisch (B1)\\
 \end{tabular}
 
 
@@ -144,7 +145,7 @@ Gute Sprachkenntnisse (Deutsch C2, Englisch B2) & Deutsch: Muttersprache; Englis
 
 %% Fähigkeiten -----------------------------------------------------------------
 \begin{cvlist}{\spacedlowsmallcaps{Fähigkeiten}}\label{skill}
-\item \textbf{Software:} \proglang{R}, Python, \LaTeX, git (und GitHub), bash, Docker, sql, etwas C (primär durch Lektüre der Bibel \emph{The C Programming Language}) und JavaScript
+\item \textbf{Software:} \proglang{R}, Python, \LaTeX, git (und GitHub), bash, Docker, sql, Webtechnologien wie HTML, CSS (Tailwind), JavaScript, diverse Markup-Sprachen, etwas C/C++
 \item \textbf{Sprachen:} Deutsch (Muttersprache), Englisch (C1), Schwedisch (B2), Französisch (B1)
 \end{cvlist}
 
