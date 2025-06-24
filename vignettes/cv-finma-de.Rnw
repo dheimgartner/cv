@@ -20,7 +20,7 @@
 
 % daniehei
 \usepackage{lipsum}
-\usepackage[a4paper, top=2.5cm, bottom=3cm, right=2cm]{geometry}
+\usepackage[a4paper, top=2.5cm, bottom=3cm, right=2.5cm]{geometry}
 % \usepackage{mathpazo} % for palantino font (but already loaded with classicthesis...
 \usepackage{enumitem}
 \usepackage{heimisc}
@@ -76,7 +76,7 @@ Analytisches Denkvermögen und Problemlösungskompetenz & Mehrjährige Forschung
 Programmierkenntnisse und schnelle Auffassungsgabe & \R, Python, Bash, HTML, CSS, JavaScript, SQL, Git, \LaTeX -- Fähigkeit und Wille, neue Konzepte/Sprachen schnell anzueignen\\
 Fundierte Kenntnisse in XML / XSD / T-SQL / XPath & Kenntnis diverser Markup-Sprachen, Serialization und Dezerialization, Object Relational Model, etc. Motivation allfällige Lücken schnell zu schliessen\\
 Datenbank- und Servererfahrung & Geübt in SQL, Unix-shell, ssh, etc.\\
-Gute Sprachkenntnisse & Deutsch (Muttersprache); Englisch (C1); Schwedisch (B2); Französisch (B1)\\
+Gute Sprachkenntnisse & Deutsch (Muttersprache), Englisch (C1), Schwedisch (B2), Französisch (B1)\\
 \end{tabular}
 
 

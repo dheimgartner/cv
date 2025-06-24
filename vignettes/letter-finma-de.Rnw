@@ -57,26 +57,23 @@ Die ausgeschriebene Position verbindet mein technisches Profil ideal mit meinem 
 
 Im Rahmen meines Doktorats an der ETH Zürich leitete ich ein angewandtes Forschungsprojekt mit Partnern wie der SBB und dem Kanton Zürich. Dabei war ich für Erhebungskonzeption, Datenpflege und Modellierung unter Anwendung verschiedenster Technologien (\R, SQL, Git, bash, etc.) verantwortlich. Ich entwickelte aktiv Software (z.B. das \R-Paket OPSR), habe Erfahrung mit Webtechnologien (Shiny, Django, HTML, CSS und JavaScript), REST-APIs sowie CI/CD-Workflows.
 
-Durch meine Tätigkeit bei der Schweizerischen Nationalbank bin ich mit der Entwicklung von Erhebungsinstrumenten, der Datenerhebung und Analyse vertraut und war aktiv an deren Automatisierung und  der Entwicklung von Monitoring-Tools beteiligt.
+Durch meine Tätigkeit bei der Schweizerischen Nationalbank bin ich mit der Entwicklung von Erhebungsinstrumenten (mit XML), der Datenerhebung, -aufbewahrung und -analyse vertraut und war aktiv an deren Automatisierung beteiligt. Ebenfalls war ich in der Entwicklung von Monitoring-Tools involviert.
 
-Neben der technischen Expertise bringe ich eine strukturierte und lösungsorientierte Arbeitsweise mit, gepaart mit hoher Eigeninitiative, Lernfreude und Belastbarkeit. In interdisziplinären Teams arbeite ich kooperativ und kommuniziere komplexe Inhalte verständlich und adressatengerecht. Ich kenne sowohl die Bedürfnisse des Datenproduzenten, als auch des Datenkonsumenten und kann dadurch effizient zwischen Lieferanten und Endnutzern kommunizieren.
+Neben der technischen Expertise bringe ich eine strukturierte und lösungsorientierte Arbeitsweise mit, gepaart mit hoher Eigeninitiative, Lernfreude und Belastbarkeit. In interdisziplinären Teams arbeite ich kooperativ und kommuniziere komplexe Inhalte verständlich und adressatengerecht. Ich kenne sowohl die Bedürfnisse der Datenproduzenten, als auch der Datenkonsumenten und kann dadurch effizient zwischen Lieferanten und Endnutzern kommunizieren.
 
-Ich bin überzeugt, dass ich mit meinem breiten Profil und meiner Begeisterung für durchdachte, automatisierte Lösungen einen echten Mehrwert für den Aufbau des neuen Competence Centers leisten kann.
+Ich bin überzeugt, dass ich mit meinem breiten Profil und meiner Begeisterung für durchdachte, automatisierte Lösungen einen echten Mehrwert für den Aufbau des neuen Competence Centers leisten kann. Ich bin auch stets daran interessiert, einen Wissensaustausch zu pflegen und freue mich daran, Neues zu lernen oder Gelerntes weiterzugeben.
 
-Es würde mich freuen, Ihnen meinen Hintergrund und Motivation in einem persönlichen Gespräch näher zu erläutern.
+Es würde mich freuen, Ihnen meinen Hintergrund und meine Motivation in einem persönlichen Gespräch näher zu erläutern.
 
 Freundliche Grüsse
 
-\vspace{2em}
+\vspace{3em}
 
 Daniel Heimgartner
 
-\vspace{1em}
-\begin{itemize}
-    \item[-] Lebenslauf
-    \item[-] Arbeitszeugnis SNB
-    \item[-] Referenzschreiben
-    \item[-] Masterzeugnis
-\end{itemize}
+- Lebenslauf\\
+- Arbeitszeugnis SNB\\
+- Referenzschreiben\\
+- Masterzeugnis
 
 \end{document}
