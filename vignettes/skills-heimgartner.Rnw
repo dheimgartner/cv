@@ -1,0 +1,118 @@
+% cv example for classicthesis.sty
+\documentclass[10pt,a4paper]{scrartcl}
+\usepackage[LabelsAligned]{currvita} % nice cv style
+\usepackage{url}
+\usepackage[ngerman]{babel}
+\usepackage[nochapters]{classicthesis}
+% Some font experiments
+%\usepackage[osf]{libertine}
+%\usepackage{hfoldsty}
+%\usepackage[math]{iwona} %[light,condensed,math]
+%\renewcommand{\sfdefault}{iwona}
+%\usepackage{lmodern} % <-- no osf support :-(
+%\usepackage[urw-garamond]{mathdesign} %<-- no osf support :-(
+
+\SweaveOpts{engine=R, eps=FALSE, keep.source = TRUE}
+
+\renewcommand*{\cvheadingfont}{\LARGE\color{RoyalBlue}}
+\renewcommand*{\cvlistheadingfont}{\large}
+\renewcommand*{\cvlabelfont}{\qquad}
+
+% daniehei
+\usepackage{lipsum}
+\usepackage[a4paper, top=2.5cm, bottom=3cm]{geometry}
+% \usepackage{mathpazo} % for palantino font (but already loaded with classicthesis...
+\usepackage{enumitem}
+\usepackage{heimisc}
+\usepackage{hyperref}
+
+\setlist[itemize]{label=-}
+\reversemarginpar
+
+% \definecolor{link}{rgb}{0.45,0.51,0.67}
+\definecolor{link}{rgb}{0.38,0.45,0.6}
+\hypersetup{
+colorlinks,
+citecolor=link,
+filecolor=link,
+linkcolor=link,
+urlcolor=link
+}
+
+% \AtBeginDocument{%
+% \setlength{\cvlabelwidth}{15mm}
+% }%
+
+\begin{document}
+\thispagestyle{empty}
+\begin{cv}{\spacedallcaps{Fähigkeiten}}
+
+\begin{cvlist}{\spacedlowsmallcaps{Pers\"onliche Daten}}\label{PersDat}
+\item Daniel Heimgartner\\
+      Rütschistrasse 17, 8037 Zürich
+\item Tel.:~077 508 33 72\\
+      E"~Mail:~\href{mailto:d.heimgartners@gmail.com}{d.heimgartners@gmail.com}
+\item Geboren am 22. August 1992\\
+      Schweiz
+\item \url{https://github.com/dheimgartner}\\
+\end{cvlist}
+
+\spacedlowsmallcaps{\large Hard skills}
+\begin{itemize}
+\item Weitreichende Kenntnisse in \R, \R-package development und Leidenschaft für Open Source
+\item Fundierte Programmierkenntnisse (über \R~hinaus)
+\item \R~package CRAN submission
+\item Entwickler von Monitoringtools mit \R~Shiny
+\item Entwickler von \proglang{HTMLwidgets} \url{foo}
+\item Verständnis für Webtechnologien (\proglang{HTML}, \proglang{CSS} und \proglang{JavaScript}), sowie Erfahurng in einigen Frameworks (wie beispielsweise \proglang{Tailwind}, \proglang{react}, oder \proglang{django})
+\item Erfahrung in Server und Datenbank Management (geübt in unix-shell/bash, ssh, etc.)
+\item Erste Erfahrung in Webdevelopment (sowohl statische als auch dynamische Webseiten)
+\item Experte in Umfragekonzeption (mittels \proglang{Qualtrics}), Stated-preference Befragungen
+\item Geübt im Umgang und Integration verschiedenster APIs (z.B. \proglang{JavaScript Qualtrics} API um Webforms zu personalisieren oder dynamischen Content zu generieren)
+\item Entwickler verschiedenster (REST) APIs (in \proglang{Python} mittels \pkg{djangorestframework}, sowie in \R~mittels \pkg{plumber})
+\item Versionierung mit \proglang{git} und GitHub, sowie CI
+\item Erfahrung in Datenbankmanagement \proglang{sql} und \proglang{PostgreSQL} (Maintainer diverser Forschungsdatensätze an unserem Institut)
+\item Begleitung und Unterstützung diverser Bachelor- und Masterarbeiten
+\item Konfiguration eines Apache Webservers (um django Webapplikation zu hosten)
+\item
+\item Geübt im Terminal (\proglang{bash}, \proglang{ssh}, etc.)
+\item Prozessautomatisierung/Automatisierung von statistischen Analysen und Monitoringtools (z.B. Kreditmonitoring von Schweizer Banken)
+\item Experte in kausaler Modellierung und simultane Regressionsmodelle (Statistik/Ökonometrie)
+\item Autor des \pkg{OPSR} \R~Pakets, um ordered probit switching regression Modelle zu schätzen, sowie Treatment Effekte zu berechnen und visualisieren
+\item Implementierung der Likelihood-Funktion in \proglang{C++} unter Anwendung von \proglang{OpenMP}, um die maximum likelihood Estimation zu parallelisieren und massiv zu beschleunigen
+\item Experte für deskriptive und kausale Datenanalyse, sowie Datenvisualisierungen (primär mit \pkg{ggplot2} aber auch geübt in base \R, sowie Verständnis für ``Grammar of Graphics'')
+\item Experte für diskrete Wahlmodelle
+\item Mitentwickler diverser Softwarepakete (z.B. \pkg{mixl}, \pkg{OPSR}, \pkg{XRPython}, aber auch ausserhalb \R -- z.B. \pkg{yolo.nvim} oder \pkg{repler.nvim} für \proglang{Neovim})
+\item Verständnis für makroökonomische Gleichgewichtsmodelle, sowie deren programmatische Implementierung (z.B. dynamic Programming)
+\item Erfahrung im Monitoren des Schweizer Bankensektors (insbesondere Kapitalanforderungen)
+\item Mathematische Beschreibung und Lösen von Optimierungsproblemen (primär constrained optimization wie beispielsweise Portfoliooptimierung)
+\item Verständnis und Interesse für Finanzmärkte (eigenes, erfolgreiches Portfolio)
+\item Autor diverser Zeitschriften- und Konferenzbeiträge
+\item Hohe Präsentationskompetenz; Fähigkeit komplexe Zusammenhänge einem breiten Publikum zu erörtern
+\item Experte in \LaTeX; Verständnis und Autor diverser Klassen und Pakete
+\item Multilingual: Deutsch (Muttersprache), Englisch (C1), Schwedisch (B2), Französisch (B1)
+\item Analyse von Geodaten in \R
+\item Erfahrung in Projektleitung und Koordination verschiedener Stakeholder aus Akademie und Praxis
+\item Lehrerfahrung und pädagogische Begabung
+\item Anliegen, nützliche Erfahrungen und Tools weiter zu geben: Initiant und Leiter des \emph{let's use xxx} Data Science Workshops in unserer Forschungsgruppe \url{https://github.com/orgs/lets-use-xxx/repositories}
+\item Sichere Ausdrucksweise in Wort und Schrift, sowie Präsentationskompetenz
+\item Erhebung und Analyse von Trackingdaten
+\item Sinn für (Prozess-) Ästhetik und Motivation, Analyseergebnisse in ansprechender und eleganter Form zu präsentieren und deren Reproduzierbarkeit zu gewährleisten
+\end{itemize}
+
+\vspace{1em}
+
+\spacedlowsmallcaps{\large Soft skills}
+\begin{itemize}
+\item Belastbar
+\item Fähigkeit unter Zeitdruck notwendige Kompromisse zu identifizieren und umzusetzen
+\item Lernbegeisterte und selbstmotivierte Person
+\item Pflichtbewusst und integer
+\item Hohe Teamfähigkeit (offene Person, Akzeptanz für verschiedenste Persönlichkeiten)
+\item Ruhige Art mit hoher Sozialkompetenz (Empathisch)
+\item Strukturiert und dennoch kreativ
+\item Auge für Ästhetik
+\end{itemize}
+
+\end{cv}
+\end{document}
